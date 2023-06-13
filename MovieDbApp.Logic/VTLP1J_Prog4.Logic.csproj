@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieDbApp.Models\VTLP1J_Prog4.Models.csproj" />
+    <ProjectReference Include="..\MovieDbApp.Repository\VTLP1J_Prog4.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

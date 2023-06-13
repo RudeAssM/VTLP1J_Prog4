@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	<PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieDbApp.Logic\VTLP1J_Prog4.Logic.csproj" />
+    <ProjectReference Include="..\MovieDbApp.Models\VTLP1J_Prog4.Models.csproj" />
+    <ProjectReference Include="..\MovieDbApp.Repository\VTLP1J_Prog4.Repository.csproj" />
+	  
+  </ItemGroup>
+
+</Project>
